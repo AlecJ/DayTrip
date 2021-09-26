@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  daytrip-api:
+    build: .
+    # environment:
+    # volumes:
+    ports:
+      - "80:80"
+      - "5000:5000"
+  
+  # pgsql:
+  #   build: ./pgsql # Download image from dockerHub
+  #   container_name: pgsql-dev
+  #   environment:
+  #     - POSTGRES_PASSWORD=Geheim # default user is postgres
+  #   volumes:
+  #     - pgdata:/var/lib/postgresql/data # Data stored in local ./volumes dir
+  #   ports:
+  #     - "5432:5432" # Local port exposed 5432, connect with pg_client
