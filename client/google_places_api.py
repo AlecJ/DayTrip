@@ -14,7 +14,7 @@ import requests
 def test():
     url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
     fields = 'formatted_address,name,rating,opening_hours'
-    params = {'key': 'AIzaSyBWpjOrljegFX1tFdWX2wwHeHOJXlWtI98',
+    params = {'key': '',
               'input': 'food',
               'inputtype': 'textquery',
               'fields': fields,

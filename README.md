@@ -10,6 +10,8 @@ python main.py
 
 
 ## Todo
+dotenv
+
 Meals
 Places
 Placeholder "things to do" blocks
